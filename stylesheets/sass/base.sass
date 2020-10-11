@@ -1,8 +1,16 @@
+@charset "utf-8"
+// <基本>
+// baseルールは「この要素の見た目はこう」というのを定義するためのもの。
+// reset.cssではなくここで必要に応じてスタイルをリセットおよびカスタマイズしていく。
+// <命名規則>
+// 要素名で指定する。
+// (例)a, ul, li
+
 html
-    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif
-    line-height: 1.5
-    font-size: 15px
-    font-weight: 400
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif
+  line-height: 1.5
+  font-size: 15px
+  font-weight: 400
 
 body
   padding: 0
@@ -11,5 +19,8 @@ body
 
 *, *:before, *:after
   box-sizing: border-box
-  color:  #FFFFFF
+  color: #FFFFFF
 
+ul, li
+  list-style: none
+  padding-left: 0px
