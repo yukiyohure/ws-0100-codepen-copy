@@ -42,14 +42,11 @@ a:hover {
 .l-section {
   margin: 32px 0; }
 
-.upperCase {
-  text-transform: uppercase; }
+.l-margin-left-2rem.l-margin-left-2rem {
+  margin-left: 2rem; }
 
-.lowerCase {
-  text-transform: lowercase; }
-
-.capitalize {
-  text-transform: capitalize; }
+.l-margin-left-4rem.l-margin-left-4rem {
+  margin-left: 4rem; }
 
 .badge {
   background: #ffdd40;
@@ -87,6 +84,50 @@ a:hover {
   background: #444857;
   border: 0; }
 
+.code-card {
+  width: 300px;
+  height: 140px;
+  background: #1d1e22;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 13px; }
+
+.code-card-header {
+  justify-content: space-between;
+  padding: 4px 8px; }
+  .code-card-header .fa:before {
+    color: #b7bbc8; }
+
+.code-card-title {
+  justify-content: space-between; }
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px; }
+
+.code-card-body {
+  padding: 0 8px 8px 8px; }
+  .code-card-body p {
+    margin: 0; }
+
+.code-card-html {
+  position: relative;
+  left: 160px;
+  bottom: 20px; }
+
+.code-card-scss {
+  position: relative;
+  left: 220px;
+  bottom: 20px; }
+
+.code-card-js {
+  position: relative;
+  left: 160px;
+  bottom: 20px; }
+
+.cursor {
+  animation: blink 1s infinite; }
+
 .hero {
   margin: 32; }
 
@@ -115,6 +156,13 @@ a:hover {
 
 .hero-body-image {
   width: 50%; }
+
+.hero-body-image-card {
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+  border-radius: 6px;
+  margin: 16px auto;
+  width: 495px;
+  height: 410px; }
 
 .header-buttons {
   padding: 8px; }
@@ -209,5 +257,29 @@ a:hover {
 .text-white {
   color: #fff; }
 
+.highlight-orange {
+  color: #a88038; }
+
+.highlight-beige {
+  color: #e1ca72; }
+
+.highlight-green {
+  color: #74b087; }
+
+.highlight-blue {
+  color: #7a99ad; }
+
+.highlight-purple {
+  color: #9f8198; }
+
 .text-bold {
   font-weight: bold; }
+
+.upperCase {
+  text-transform: uppercase; }
+
+.lowerCase {
+  text-transform: lowercase; }
+
+.capitalize {
+  text-transform: capitalize; }
