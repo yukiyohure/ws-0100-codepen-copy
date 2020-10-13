@@ -48,6 +48,16 @@ a:hover {
 .l-margin-left-4rem.l-margin-left-4rem {
   margin-left: 4rem; }
 
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
 .badge {
   background: #ffdd40;
   color: #000;
