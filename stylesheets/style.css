@@ -94,6 +94,12 @@ a:hover {
   background: #444857;
   border: 0; }
 
+.card {
+  background: #2c303a;
+  padding: 2rem;
+  width: 360px;
+  border-radius: 6px; }
+
 .code-card {
   width: 300px;
   height: 140px;
@@ -137,6 +143,28 @@ a:hover {
 
 .cursor {
   animation: blink 1s infinite; }
+
+.features {
+  justify-content: center; }
+  .features .card {
+    height: 340px; }
+
+.features-card {
+  margin: 2rem 1rem; }
+
+.feature-card-icon {
+  background: #000;
+  position: relative;
+  left: 16px;
+  top: 32px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border-radius: 6px; }
+  .feature-card-icon i {
+    font-size: 48px;
+    position: relative;
+    top: 8px; }
 
 .hero {
   margin: 32; }
