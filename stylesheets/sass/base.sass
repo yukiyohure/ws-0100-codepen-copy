@@ -26,3 +26,14 @@ ul, li
 
 a:hover
   cursor: pointer
+
+// 50%と51%で刻むことではっきりとした区切りのあるアニメーションになる
+@keyframes blink
+  0%
+    opacity: 0
+  50%
+    opacity: 0
+  51%
+    opacity: 1
+  100%
+    opacity: 1
