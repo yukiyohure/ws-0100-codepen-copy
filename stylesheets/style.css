@@ -49,6 +49,9 @@ a:hover {
   display: flex;
   align-items: center; }
 
+.l-footer {
+  padding: 32px; }
+
 .l-section {
   margin: 32px 0; }
 
@@ -244,6 +247,24 @@ a:hover {
     position: relative;
     top: 8px; }
 
+.footer {
+  justify-content: space-between;
+  background: #000; }
+
+.footer-links h4 {
+  margin: 2px 1rem 2px 2px; }
+
+.footer-links li {
+  margin-right: 1rem; }
+
+.footer-logo {
+  font-size: 2rem; }
+
+.copy-right {
+  font-size: 1rem;
+  margin: 1rem 0;
+  display: inline-block; }
+
 .hero {
   margin: 32; }
 
@@ -279,6 +300,13 @@ a:hover {
   margin: 16px auto;
   width: 495px;
   height: 410px; }
+
+.hero-background-image {
+  width: 600px;
+  position: absolute;
+  bottom: -212px;
+  right: -48px;
+  z-index: -1; }
 
 .header-buttons {
   padding: 8px; }
