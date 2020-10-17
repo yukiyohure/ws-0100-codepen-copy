@@ -266,15 +266,21 @@ a:hover {
   display: inline-block; }
 
 .hero {
-  margin: 32; }
+  margin: 32px; }
 
 .hero-body {
   display: flex;
   flex-wrap: wrap; }
+  @media (max-width: 576px) {
+    .hero-body {
+      flex-direction: column; } }
 
 .hero-body-description {
   width: 50%;
   padding: 32px; }
+  @media (max-width: 576px) {
+    .hero-body-description {
+      width: 100%; } }
 
 .hero-logo {
   font-size: 36px; }
@@ -334,6 +340,9 @@ a:hover {
 
 .sidebar {
   background-color: #1f1f26; }
+  @media (max-width: 576px) {
+    .sidebar {
+      display: none; } }
 
 .codepen-logo {
   text-align: center; }
